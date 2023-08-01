@@ -1,0 +1,81 @@
+/*  Estilos personalizados 
+    barras de navegação, menus, listas e conteúdo com altura dinâmica
+*/
+
+.style_body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+/* BANNER */
+.banner {
+    background-image: url("../imgs/923.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 48px;
+    /* color: #ff00ff; Cor rosa */
+    /* background: linear-gradient(to right, #ff00ff, #00ffff); */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  p {
+    font-family: "Impact", sans-serif;
+    font-size: 24px;
+    color: #7b00ff; /* Cor ciano */
+  }
+  
+  .comic-element {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .comic-element img {
+    width: 500px;
+    height: 100px;
+  }
+  
+
+/*  Estilos personalizados
+    layouts mais elaborados, com várias áreas, cabeçalhos, rodapés e elementos alinhados em diferentes colunas e linhas
+*/
+
+/* body {
+    background-color: #f2f2f2;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+} */
+
+
