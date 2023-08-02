@@ -23,7 +23,7 @@
     <body>
         <div class="banner">
             <h1>Export aqui seu PDF</h1>
-            <p>Mil Grau!</p>
+            <p>Mil 1000 Grau!</p>
         </div>
         <div class="frase-de-impacto">
             <!-- <p>Quando você acredita em si mesmo, o mundo acredita em você.</p> -->
