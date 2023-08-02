@@ -2,17 +2,51 @@
     barras de navegação, menus, listas e conteúdo com altura dinâmica
 */
 
+/* BANNER */
+.banner {
+    background-image: url("../imgs/923.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 48px;
+    /* color: #ff00ff; Cor rosa */
+    /* background: linear-gradient(to right, #ff00ff, #00ffff); */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+p {
+    font-family: "Impact", sans-serif;
+    font-size: 24px;
+    color: #7b00ff; /* Cor ciano */
+}
+
+.comic-element {
+    display: inline-block;
+    margin: 10px;
+}
+
+.comic-element img {
+    width: 500px;
+    height: 100px;
+}
+
+/* CORPOO */
+
 .style_body {
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40vh;
 }
 
 .container {
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #ccc;
 }
 
@@ -28,38 +62,58 @@ p {
 }
 
 
-/* BANNER */
-.banner {
-    background-image: url("../imgs/923.jpg");
-    background-size: cover;
+.frase-de-impacto {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Monoton', cursive;
     padding: 20px;
     text-align: center;
-  }
-  
-  h1 {
-    font-family: "Comic Sans MS", cursive;
-    font-size: 48px;
-    /* color: #ff00ff; Cor rosa */
-    /* background: linear-gradient(to right, #ff00ff, #00ffff); */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-  
-  p {
-    font-family: "Impact", sans-serif;
     font-size: 24px;
-    color: #7b00ff; /* Cor ciano */
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+/* 
+  .footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
   }
   
-  .comic-element {
-    display: inline-block;
-    margin: 10px;
+  .footer p {
+    margin: 0;
   }
   
-  .comic-element img {
-    width: 500px;
-    height: 100px;
+  .footer a {
+    color: #fff;
+    text-decoration: none;
   }
   
+  .footer a:hover {
+    text-decoration: underline;
+  } */
+
+  .footer {
+    background-color: #222;
+    color: #00ff00; /* verde */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #00ff00; /* verde */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
 
 /*  Estilos personalizados
     layouts mais elaborados, com várias áreas, cabeçalhos, rodapés e elementos alinhados em diferentes colunas e linhas
