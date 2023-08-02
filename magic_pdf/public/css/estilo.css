@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-h1 {
+.banner h1 {
     font-family: "Comic Sans MS", cursive;
     font-size: 48px;
     /* color: #ff00ff; Cor rosa */
@@ -18,7 +18,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-p {
+.banner p {
     font-family: "Impact", sans-serif;
     font-size: 24px;
     color: #7b00ff; /* Cor ciano */
